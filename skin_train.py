@@ -16,6 +16,7 @@ def main():
     num_epochs = 25
     lr = 0.0005
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+    print("check: ", torch.cuda.is_available())
 
     train_transform = transforms.Compose([
         transforms.Resize((224, 224)),
