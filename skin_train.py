@@ -9,8 +9,8 @@ from torch.utils.data import DataLoader
 
 def main():
     # 경로 설정 (실제 데이터 폴더에 맞춰 조정)
-    train_dir = r'C:\junho\web\data\skin_dataset_split\train'
-    val_dir   = r'C:\junho\web\data\skin_dataset_split\val'
+    train_dir = r'..\data\skin_dataset\train'
+    val_dir   = r'..\data\skin_dataset\val'
 
     batch_size = 32
     num_epochs = 25

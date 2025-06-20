@@ -8,7 +8,7 @@ from sklearn.metrics import classification_report, confusion_matrix
 import numpy as np
 
 # 1. 폴더 경로만 바꿔준다
-test_dir = r'C:\junho\web\data\skin_dataset_split\val'  # validation 폴더
+test_dir = r'..\data\skin_dataset\val'  # validation 폴더
 
 model_path = 'mobilenet_skin_best.pth'
 batch_size = 32
